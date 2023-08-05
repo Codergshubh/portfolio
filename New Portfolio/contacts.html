@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shubh - Developer Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&family=Poppins:wght@400;600;700&family=Source+Code+Pro:wght@300&family=Ubuntu:ital,wght@0,300;1,300&family=Varela+Round&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(65, 65, 66);
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(27, 27, 27);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: violet;
+            font-size: 1.04rem;
+        }
+
+        .left {
+            font-size: 1.5rem;
+            color: white;
+        }
+
+        main {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            color: white;
+        }
+
+        .contact-info {
+            text-align: center;
+            color: white;
+            font-size: 1.2rem;
+            margin-top: 20px;
+            font-weight: bold;
+        }
+
+        .btn {
+            background-color: transparent;
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            padding: 10px 20px;
+            margin-top: 20px;
+            cursor: pointer;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .btn:hover {
+            background-color: white;
+            color: rgb(32, 32, 32);
+        }
+
+        .center-btn {
+            display: flex;
+            justify-content: center;
+        }
+
+        .footer {
+            display: flex;
+            background-color: rgb(37, 37, 37);
+            height: 233px;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        .footer>div {
+            width: 123px;
+        }
+
+        footer .footer-rights {
+            text-align: center;
+            background-color: rgb(37, 37, 37);
+            color: grey;
+            padding: 12px 0;
+        }
+
+        .textdec {
+            text-decoration: none;
+            color: grey;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div class="left">Shubh's Portfolio</div>
+        <div class="right">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="Resume.pdf">Services</a></li>
+                <li><a href="Resume.pdf">Projects</a></li>
+                <li><a href="contacts.html">Contacts</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section>
+            <h1>Contact Information</h1>
+            <div class="contact-info">
+                <p>Name: <span style="font-size: 1.5rem;">Shubh Gupta</span></p>
+                <p>Email: <span style="font-size: 1.5rem;">shavintelli22@gmail.com</span></p>
+                <p>Phone: <span style="font-size: 1.5rem;">+91-9794199140</span></p>
+                <p>GitHub: <a href="https://github.com/shubh">https://github.com/Codergshubh</a></p>
+            </div>
+            <div class="center-btn">
+               <a href="Resume.pdf"><button class="btn">Download CV</button></a> 
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-second">
+              <a class="textdec" href="index.html"><b>Home</b></a>  
+            </div>
+            <div class="footer-second">
+              <a class="textdec" href="Resume.pdf"><b>Resume</b></a>  
+            </div>
+            <div class="footer-third">
+              <a class="textdec" href="https://github.com/Codergshubh"><b>Github</b> </a> 
+            </div>
+            <div class="footer-fourth">
+              <a class="textdec" href="contacts.html"><b>Contacts</b></a> 
+            </div>
+            <br>
+        </div>
+        <div class="footer-rights">
+            www.Shubhportfolio.com
+    </footer>
+</body>
+
+</html>
+
+
